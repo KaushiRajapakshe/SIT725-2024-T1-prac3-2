@@ -1,0 +1,26 @@
+{
+  "name": "sit725-2024-t1-prac3-2",
+  "version": "1.0.0",
+  "description": "SIT725 2024 T1 Prac 3.2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaushiRajapakshe/SIT725-2024-T1-prac3-2.git"
+  },
+  "keywords": [
+    "prac3"
+  ],
+  "author": "Kaushalya Rajapaksha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaushiRajapakshe/SIT725-2024-T1-prac3-2/issues"
+  },
+  "homepage": "https://github.com/KaushiRajapakshe/SIT725-2024-T1-prac3-2#readme",
+  "dependencies": {
+    "package.json": "^2.0.1"
+  }
+}
