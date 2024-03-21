@@ -23,6 +23,16 @@ const clickMe = () => {
     alert("Thanks for clicking me. Hope you have a nice day!")
 }
 
+const submitForm = () => {
+    let formData = {};
+    formData.first_name = $('#first_name').val();
+    formData.last_name = $('#last_name').val();
+    formData.password = $('#password').val();
+    formData.email = $('#email').val();
+    console.log("Form Data Submitted: "
+        , formData);
+}
+
 const addCards =
     (items) => {
         items.forEach(
@@ -37,6 +47,9 @@ const addCards =
             });
     }
 
-$(document).ready(function() {
+$(document).ready(function () {
+    $('#formSubmit').click(() => {
+        submitForm();
+    })
     addCards(cardList);
 });

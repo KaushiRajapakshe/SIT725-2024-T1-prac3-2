@@ -13,12 +13,13 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="basic template for SIT 725 Prac 1">
 
-    <!-- main style -->
-    <link href="css/style.css" rel="stylesheet">
-
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- main style -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -39,12 +40,49 @@
                 <img id="imageSize" src="images/livedemo.png" alt="live demo" onclick="clickMe()">
             </div>
             <div class="col s12 center-align">
-                <a id="clickMeButton" class="blue accent waves-effect waves-green btn " onclick="clickMe()">Click Me</a>
+                <a id="clickMeButton" class="blue accent waves-effect waves-green btn" data-toggle="modal"
+                    data-target="#modal1">Click Me</a>
             </div>
             <div id="card-section">
             </div>
         </div>
     </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="row modal-content">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 center-align">
+                        <a class="waves-effect waves-light btn" id="formSubmit">Submit</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
 
     <div class="footer">
         <div class="text">SIT725 - Applied Software Engineering 3.2 P | s223681886 - Kaushalya Rajapaksha</div>
@@ -55,6 +93,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <!--  main script  -->
     <script src="js/script.js"></script>
 </body>

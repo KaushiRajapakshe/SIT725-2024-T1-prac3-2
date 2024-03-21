@@ -49,3 +49,12 @@ body {
 #cardImg {
     height: 300px;
 }
+
+.modal-fixed-footer {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.modal-content {
+    box-shadow: inset;
+}
