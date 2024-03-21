@@ -36,72 +36,12 @@
                 <h2 id="heading" class="center-align">SIT725 - Applied Software Engineering</h1>
             </div>
             <div class="col s12 center-align">
-                <img class="image-size" src="images/livedemo.png" alt="live demo" onclick="clickMe()">
+                <img id="imageSize" src="images/livedemo.png" alt="live demo" onclick="clickMe()">
             </div>
             <div class="col s12 center-align">
                 <a id="clickMeButton" class="blue accent waves-effect waves-green btn " onclick="clickMe()">Click Me</a>
             </div>
-            <div class="row">
-                <div class="col s4 center-align">
-                    <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img id="cardImg" class="activator" src="images/Desserts.jpeg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Desserts<i
-                                    class="material-icons right">more_vert</i></span>
-                            <p><a href="#">About this desserts</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Desserts<i
-                                    class="material-icons right">close</i></span>
-                            <p class="card-text">Hello There! <br />
-                                This is Strawberry Cheesecake. <br />
-                                Dessert is the last course of your meal :)
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s4 center-align">
-                    <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img id="cardImg" class="activator" src="images/Meat.jpeg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Meat<i
-                                    class="material-icons right">more_vert</i></span>
-                            <p><a href="#">About this meat</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Meat<i
-                                    class="material-icons right">close</i></span>
-                            <p class="card-text">Hello There! <br />
-                                This is Beef steak. <br />
-                                Help you to have good protein in your diet :)
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s4 center-align">
-                    <div class="card medium">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img id="cardImg" class="activator" src="images/Vegetables.avif">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Vegetables<i
-                                    class="material-icons right">more_vert</i></span>
-                            <p><a href="#">About this vegetables</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Kitten<i
-                                    class="material-icons right">close</i></span>
-                            <p class="card-text">Hello There! <br />
-                                This is Broccoli. <br />
-                                Broccoli contains many vitamins, minerals, and fiber :)
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div id="card-section">
             </div>
         </div>
     </div>
@@ -112,7 +52,9 @@
 
     <!-- Materialize JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!--  main script  -->
     <script src="js/script.js"></script>
 </body>

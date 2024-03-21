@@ -21,7 +21,7 @@ body {
     color: black;
 }
 
-.image-size {
+#imageSize {
     height: 30vh;
     width: 30vw;
 }
